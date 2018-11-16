@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------*/
+/* Option tree style extend
+/*---------------------------------------------------------------*/
+
+
+/* Tweak menu */
+#option-tree-header {padding:10px;}
+#tab_import_successful{display:none;}
+
+/* Title style */
+div.section-title{display:block; font-size:13px; font-weight:bold; padding: 14px 20px; background:#F1F9F7; color:#1D9D74; border:1px solid #E0F1E9; border-radius:3px;}
+#option-tree-settings-api .description h3, #option-tree-settings-api .format-setting-label .label, .metabox-holder .format-setting-label .label{font-size:13px !important; position:relative; padding-left:25px !important;}
+#option-tree-settings-api .description h3:before, #option-tree-settings-api .format-setting-label .label:before, .metabox-holder .format-setting-label .label:before{ position:absolute; left:0; font-family: dashicons; color:#BCBCBC; content: "\f107"; font-weight:normal; font-size:18px; line-height:18px; text-align:center;  display:block;}
+
+
+/* Child options */
+.child-options-wrap{background:#f7f7f7; padding:0 60px; box-sizing:border-box;}
+#option-tree-settings-api .child-options-wrap code{background:#ddd;}
+.child-options-wrap.child-first-wrap{padding-top:40px;}
+.child-options-wrap.child-last-wrap{padding-bottom:40px;}
+.option-tree-sortable .format-settings.child-options-wrap{padding:10px 30px;}
+.option-tree-sortable .format-settings.child-first-wrap{padding-top:20px;}
+.option-tree-sortable .format-settings.child-last-wrap{padding-bottom:20px;}
+
+/* Colorpicker */
+.wp-picker-container input[type=text].wp-color-picker {display:inline-block;}
+
+/* Description style */
+.format-setting .description {width: 30%; font-size:12px;}
+.type-list-item .format-setting .description {width: 30%;}
+
+.format-setting .description:before {content: "\f348"; font-family:dashicons; font-size:19px; color:#446CB3; width:15px; display:inline-block; margin-left: -25px; margin-right:10px; border-radius:15px; vertical-align:-5px;}
+
+.type-textblock.format-setting .description:before {display:none;}
+.type-textblock.format-setting .description .section-title:before {font-family: dashicons; content: "\f347"; font-size: 12px; font-weight:normal; display:inline-block; margin-right:10px; vertical-align:-1px; background:#1D9D74; color:#F1F9F7; width:16px; height:16px; line-height:16px; text-align:center; border-radius:16px;}
+
+@media only screen and (max-width: 1020px) {
+  .format-setting .description {
+    width: 100%;
+  }
+}
+
+/* Custom description */
+#mnky_featured_image_caption .format-setting .description {float:none; width:100%; margin-bottom:10px;}
+#mnky_featured_image_caption .format-setting .description:before {display:none;}
+#mnky_featured_image_caption .format-setting .format-setting-inner {width:100%; float:none;}
+
+/* Post templates option */
+#mnky_post_templates .format-setting-wrap{padding:10px 0 0;}
+
+
+/* Previews */
+.absolute_header_preview-wrap .header-preview{background: #fff url(overlay_header_example.jpg) no-repeat; background-size:contain; width:100%; height: 226px; display:block;}
+.default_header_preview-wrap .header-preview{background: #fff url(default_header_example.jpg) no-repeat; background-size:contain; width:100%; height: 226px; display:block;}
+.top_bar_preview-wrap .topbar-preview{background: #fff url(top_bar_example.jpg) no-repeat; background-size:contain; width:100%; height: 226px; display:block;}
+
+
+/* Buttons */
+.js-add-google-font.button-primary, .js-add-google-font.button-primary:active, .js-add-google-font.button-primary:focus{background:#40d47e; border-color:#1BB85D; float:none; box-shadow:none; -webkit-box-shadow:none;}
+.js-add-google-font.button-primary:hover{background:#3AC273; border-color:#1BB85D;}
+
+.category-styles-wrap .button-primary, .category-styles-wrap .button-primary:active, .category-styles-wrap .button-primary:focus{background:#40d47e; border-color:#1BB85D; margin-left:0px; float:none; box-shadow:none; -webkit-box-shadow:none;}
+.category-styles-wrap .button-primary:hover{background:#3AC273; border-color:#1BB85D;}

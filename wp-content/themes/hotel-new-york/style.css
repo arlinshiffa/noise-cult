@@ -1,0 +1,154 @@
+/*
+Theme Name: Hotel New York
+Author: Webdzier
+Author URI: https://www.webdzier.com
+Description: Hotel New York is a hotel based WordPress theme which is clean and responsive design. It is used to hotel, restaurant, eatery, food joint, cuisine, hospitality business, recipe, cafe, lodge and others. It is mobile friendly and has a very nice animated homepage. It is easily to setup and customize using Customizer API.
+Template: hotel-galaxy
+Version: 1.1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hotel-new-york
+Tags: one-column, two-columns, right-sidebar, custom-colors, custom-menu, sticky-post, threaded-comments, custom-header, featured-images, blog
+*/
+
+.heading:before,
+.rq-singleRoom-text-head-left h1:before,
+.header-bottom,
+.search-box-top .input-group > .input-group-addon,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu > li > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus,
+.navbar-default .navbar-toggle,
+.search-box .btn-ar,
+.carousel-navigation a,
+.carousel-navigation :hover .carousel-prev,
+.carousel-navigation :hover .carousel-next,
+.book-btn .custom-btn:hover,
+.btn_1,
+.button-search,
+.widget-blog .blog-time,
+.blog-pagination ul li a:hover, 
+.blog-pagination ul li.active a,
+.prev-post:hover,.next-post:hover,
+.comment_details ul li a:hover,
+.book-sm,
+.book-lg,
+.custom-btn,
+.scroll-top,
+.room-filter > li a:hover,
+.room-filter > li a.active,
+.footer-top,
+.f_top_inner,
+.footer-widget div#calendar_wrap table#wp-calendar thead>tr,
+.sidebar-widget div#calendar_wrap table#wp-calendar thead>tr,
+.footer-widget div#calendar_wrap table>thead>tr>th,
+.tagcloud a:hover,
+.footer-widget h4:before,
+.room-scroll-btn li,
+.blog-content .nav-links ul li span.current,
+.blog-content .nav-links ul li a:hover,
+.home-blogs-section .content-footer,
+.blog-area .wpcf7-form p .wpcf7-submit,
+.hotel-g-contact-form .wpcf7-form p .wpcf7-submit
+{
+  background-color: #E58062!important;
+}
+
+.htlg-site-title,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.search-box .dropdown a i,
+.feature-col .sr-icon i,
+.feature-col:hover.feature-col  h3  a,
+.contact_link a i,
+.top-breadcrumb > li.active a,
+.blog-area h2 a:hover,
+.blog-inner-left ul li a:hover,
+.sidebar-widget #recentcomments li a,
+.widget-blog .blog-widget-info a,
+ul.blog-posttag li a:hover,
+.blog-area-detail h2 a:hover,
+.widget-post h3 a:hover,
+.intro-caption i,
+.home-room-col:hover .home-room-details h3 a,
+.home-room-col:hover .home-room-details ul li,
+.gallery-icon i:hover,
+.sidebar-widget ul li a:hover,
+.sidebar-widget .cat-item a:before,
+#calendar_wrap a,
+#calendar_wrap a:hover,
+.copyright a,
+.footer-widget a:hover,
+.address-sec ul li > span,
+.footer-widget label i,
+.hotel_galaxy_404 h1,
+.home-blogs-section .home-blog-single-title a:hover,
+.home-room-sec .room-item .caption a .rent:hover
+{
+  color: #E58062!important;
+}
+
+.search-box-top .input-group > .form-control,
+.search-box-top .input-group > .input-group-addon,
+.search-box .btn-ar,
+.button-search,
+.comment_details ul li a:hover,
+.custom-btn
+{
+  border: 1px solid #E58062;
+}
+
+.navbar-default .navbar-toggle,
+.blog-pagination ul li a:hover, 
+.blog-pagination ul li.active a,
+.room-filter > li a:hover,
+.room-filter > li a.active,
+.tagcloud a:hover
+{
+  border-color:#E58062;
+}
+
+.slide-info{
+  border-left: 8px solid #E58062;
+  border-right: 8px solid #E58062;
+}
+
+.blog-area{
+   border-top: 3px solid #E58062;
+}
+.sidebar-widget
+{
+  border-top-color: #E58062;
+}
+
+.widget-title,
+.blog-pagination ul li a
+{
+   border-top: 2px solid #E58062;
+}
+
+.footer-top{
+  border-top: 1px solid #E58062!important;
+}
+
+.f_top_inner{
+   border-right: 1px solid #c75a09;
+}
+
+.footer{
+  background-color: #1a1a1a;
+}
+
+.copyright{
+  background: #000000;
+}
+
+blockquote{
+  border-left: 5px solid #E58062 !important;
+}
+

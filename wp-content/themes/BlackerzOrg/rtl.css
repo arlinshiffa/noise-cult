@@ -1,0 +1,2700 @@
+/*
+Theme Name: Bitz
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+
+-----------------------------------------------------------------
+
+	01.	Reset Stylesheet
+	02.	Base Styles
+	03.	Structure
+	04.	Header
+	05.	Menu
+	06.	Content
+	07.	Images
+	08.	Comments
+	09.	Footer
+	10.	Widgets
+	11.	Plugins
+	12.	Mobile Menu
+	13.	Responsive
+
+-----------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------*/
+/* 01. Reset Stylesheet
+/*---------------------------------------------------------------*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/*---------------------------------------------------------------*/
+/* 02. Base Styles 
+/*---------------------------------------------------------------*/
+
+/* Definition list */
+dt {
+	float: right; 
+	clear: right; 
+	text-align: left;
+}
+dd {
+	margin: 0 150px 0 0;
+}
+
+/* Bloquote */
+blockquote cite:before {
+	padding-right:0px; padding-left:5px;
+}
+
+/* Blockquote */
+blockquote cite:before {
+    padding-left:5px;
+	padding-right: 0;
+}
+
+/* Blockquote box style */
+blockquote.box {
+    margin-right:-30px;
+	margin-left: auto;
+}
+
+/* Blockquote border style */
+blockquote.border {
+    margin-right:35px;
+	margin-left: auto;
+}
+
+blockquote.border p {
+    padding:20px 30px 20px 70px;
+    border-right:5px solid #dedede;
+	border-left: none;
+}
+
+/* Blockquote icon style */
+blockquote.icon p:before {
+    right:0px;
+	left: auto;
+}
+
+/* Blockquote align right style */
+blockquote.right {
+    float: right;
+}
+
+blockquote.right p {
+    padding:20px 0px 20px 40px;
+}
+
+/* Blockquote align right style */
+blockquote.left {
+    float: left;
+}
+
+blockquote.left p {
+    padding:20px 40px 20px 0px;
+}
+
+/* Blockquote box right style */
+blockquote.box-right {
+    margin-left:40px;
+    float:right;
+	margin-right: auto;
+}
+
+/* Blockquote box left style */
+blockquote.box-left {
+    margin-right:40px;
+    float:left;
+	margin-left: auto;
+}
+
+/* Blockquote bold style */
+
+blockquote.bold:after {
+    right:0px;
+	left: auto;
+}
+
+/* List style */
+ul, ol {
+    margin-right: 1.8em;
+	margin-left: auto;
+}
+
+ol, ul.square, ul.circle, ul.disc, ul {
+    margin-right: 30px;
+	margin-left: auto;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+    margin: 4px 30px 5px 0;
+}
+
+nav ul, nav li {
+	margin:0;
+}
+
+/* Button style */
+button:after {
+	content: "\f104";
+}
+
+/* Table style */
+caption,th,td {
+    text-align:right;
+}
+
+/*---------------------------------------------------------------*/
+/* 03. Structure
+/*---------------------------------------------------------------*/
+
+
+#top-bar, #header-container, #navigation-inner {
+    padding-right:30px;
+    padding-left:30px;
+}
+
+#content.float-right {
+    padding-left:60px;
+	padding-right: 0;
+}
+
+#content.float-left {
+    padding-right:60px;
+	padding-left: 0;
+}
+
+/* Alignments */
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.float-right {
+    float:right;
+}
+
+.float-left {
+    float:left;
+}
+
+/*---------------------------------------------------------------*/
+/* 04. Header
+/*---------------------------------------------------------------*/
+
+/* Header */
+
+#header-sidebar {
+    float:left;
+}
+
+/* Logo */
+#site-logo {
+    float:right;
+}
+
+.header-style-2 #site-logo {
+    margin-left:30px;
+	margin-right: auto;
+}
+
+.header-style-5#navigation-wrapper ul li ul {
+    text-align:right;
+}
+
+.header-style-5 #site-utility {
+    text-align:right;
+}
+
+.header-style-6 #site-logo {
+    margin-left:30px;
+	margin-right: auto;
+}
+
+/* Header search */
+.header-search {
+    right:0;
+    left:0;
+}
+
+/* Page title */
+.page-header {
+    text-align:right;
+}
+
+/*---------------------------------------------------------------*/
+/* 05. Menu
+/*---------------------------------------------------------------*/
+
+#site-navigation .menu-container {
+    float:right;
+}
+
+#site-navigation ul li {
+    float:right;
+}
+
+#site-navigation ul li.menu-item-has-children > a {
+    padding-left:34px;
+	padding-right: 15px;
+}
+
+#site-navigation ul li.menu-item-has-children > a:after {
+	left:0px;
+}
+
+/* Sub-level */
+#site-navigation ul li ul {
+    right: 0px;
+	left: auto;
+}
+
+#site-navigation ul li ul li ul {
+    right:210px;
+	left: auto;
+}
+
+#site-navigation ul li ul li ul li a {
+    padding-left:20px;
+	padding-right: 0;
+}
+
+#site-navigation ul li ul li.menu-item-has-children > a {
+    padding-left:20px;
+}
+
+/* Utility menu */
+#site-utility {
+    float:left;
+    margin-left:-20px;
+	margin-right: auto;
+}
+
+#site-utility .header_cart_wrapper, #site-utility .search_button {
+    float:right;
+}
+
+#site-utility .search_button {
+    padding:0 10px 0 20px;
+}
+
+#site-utility .header_cart_link {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+#site-utility .header_cart_link .cart_product_count {
+    right:28px;
+	left: auto;
+}
+
+/* Mega menu */
+
+#site-navigation ul li.megamenu > ul {
+	left: auto;
+}
+
+#site-navigation ul > li.megamenu > ul > li {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+	border-right: none;
+}
+
+#site-navigation ul > li.megamenu > ul > li:last-child {
+    border-left: none;
+	border-right: none;
+}
+
+#site-navigation ul li.megamenu ul li ul {
+    right:0px;
+	left: auto;
+}
+
+/* Mega menu (tabs) */
+
+#site-navigation ul li.megamenu-tabs > ul.sub-menu {
+	left: auto;
+}
+
+#site-navigation ul li.megamenu-tabs .submenu-content .tabs-nav {
+    float:right;
+    border-left:1px solid #eee;
+    margin-right:-9999rem;
+    padding-right:9999rem;
+	padding-left: 0;
+	margin-left: auto;
+	border-right: none;
+}
+
+#site-navigation ul li.megamenu-tabs .submenu-content .tabs-nav li a {
+    text-align:left;
+}
+
+#site-navigation ul li.megamenu-tabs .submenu-content .tabs-content-wrapper {
+    float:right;
+    margin:0 18px 0 0;
+}
+
+#site-navigation ul li.megamenu-tabs.no-tabs .submenu-content .tabs-content-wrapper {
+    right:0px;
+	left: auto;
+}
+
+#site-navigation ul li.megamenu-tabs ul li ul {
+    right:0px;
+	left: auto;
+}
+
+#site-navigation ul li.megamenu-tabs.full-width > ul.sub-menu {
+    right:0px;
+	left: auto;
+}
+
+#site-navigation ul li.megamenu-tabs.full-width  .submenu-content {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#site-navigation ul li.megamenu-tabs.full-width.no-tabs .submenu-content {
+    padding-right:30px;
+	padding-left: 0;
+}
+
+#site-navigation ul li.megamenu-tabs.no-spacing .mnky-menu-posts .menu-post-container {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+#site-navigation ul li.megamenu-tabs.no-spacing .mmp-img:after {
+    right:0px;
+	left: auto;
+}
+
+/* Secondary menu */
+.secondary-menu-toggle {
+    float:right;
+}
+
+.secondary-navigation-close {
+    left:35px;
+	right: auto;
+}
+
+#secondary-navigation-wrapper {
+    right:0;
+	left: auto;
+}
+
+#secondary-navigation ul > li {
+    float:right;
+}
+
+#secondary-navigation ul > li ul li {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+/*---------------------------------------------------------------*/
+/* 06. Content
+/*---------------------------------------------------------------*/
+
+/* Archive layout */
+
+.archive-layout.post-secondary {
+    float:right;
+}
+
+.archive-layout.post-odd {
+    float:left;
+}
+
+.archive-layout.layout-two-column.post-main {
+    float:right;
+}
+
+.archive-layout.layout-two-column.post-secondary {
+    float:left;
+}
+
+.archive-layout.layout-two-column.post-odd {
+    float:right;
+}
+
+/* Posts - Layout 2 - left cover*/
+.archive-style-2 .post-content-wrapper {
+    margin: -90px 20% 0 0;
+}
+
+.archive-style-2.post-secondary .post-content-wrapper, .archive-style-2.layout-two-column .post-content-wrapper {
+    margin: -40px 20% 0 0;
+}
+
+/* Posts - Layout 3 - right cover */
+.archive-style-3 .post-content-wrapper {
+    margin: -90px 0 0 20%;
+}
+
+.archive-style-3.post-secondary .post-content-wrapper, .archive-style-3.layout-two-column .post-content-wrapper {
+    margin: -40px 0 0 20%;
+}
+
+/* Posts - Layout 5 - image left */
+
+.archive-style-5 .post-preview {
+    float:right;
+}
+
+.archive-style-5 .post-content-wrapper {
+    margin-right:270px;
+	margin-left: auto;
+}
+
+/* Posts - Layout 6 - image right */
+
+.archive-style-6 .post-preview {
+    float:left;
+}
+
+.archive-style-6 .post-content-wrapper {
+    margin-left:270px;
+	margin-right: auto;
+}
+
+/* Video & Gallery format */
+.archive-layout.format-video .post-preview:before, .archive-layout.format-gallery .post-preview:before {
+    right:50%;
+    margin-right:-37px;
+	left: auto;
+	margin-left: auto;
+}
+
+.archive-layout.archive-style-7.format-video .format-icon:before, .archive-layout.archive-style-7.format-gallery .format-icon:before {
+    left:15px;
+	right: auto;
+}
+
+/* Meta */
+.entry-meta {
+    float:right;
+}
+
+#post-header-sidebar {
+    float:left;
+}
+
+.meta-views i {
+    padding-left:2px;
+	padding-right: 0;
+}
+
+.meta-comments {
+    margin-left:12px;
+	margin-right: auto;
+}
+
+.meta-comments i {
+    padding-left:2px;
+	padding-right: 0;
+}
+
+.entry-meta-blog .meta-comments i {
+    padding-left:3px;
+	padding-right: 0;
+}
+
+.meta-date {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+.meta-author-image {
+    float:right;
+    margin-left:15px;
+	margin-right: auto;
+}
+
+.entry-meta-blog .meta-author {
+	margin-left:20px;
+	margin-right:0px;
+}
+
+.entry-meta-blog .meta-author.meta-author-divider {
+    border-left:1px solid #ccc;
+    margin-left:7px;
+    padding-left:7px;
+	padding-right: 0;
+	margin-right: auto;
+	border-right: none;
+}
+
+.tag-links span a {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+.tag-links span a:before {
+    margin-left:1px;
+	margin-right: auto;
+}
+
+.tag-links span a:after {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+.article-labels span {
+    margin-left:5px;
+	margin-right: auto;
+}
+
+/* Pagination */
+
+.pagination a.next {
+    margin-right:7px;
+    text-align:right;
+	margin-left: auto;
+}
+
+.pagination a.prev {
+    margin-left:7px;
+    padding-right:0px;
+    text-align:right;
+	padding-left: 0;
+	margin-right: auto;
+}
+
+.pagination:before {
+    margin-right: -3px;
+	margin-left: auto;
+}
+
+/* Review */
+
+.rating-bar {
+    float:left;
+}
+
+.rating-bar-value:after {
+    float:left;
+}
+
+.rating_aspect_value {
+    float:right;
+    padding-left:10px;
+	padding-right: 0;
+}
+
+.rating_aspect_value .rating-name {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+.rating_summary {
+    float:right;
+}
+
+.rating-stars-wrapper {
+    float:left;
+}
+
+.rating-stars {
+    float:left;
+}
+
+/* More tag - Read more link */
+.more-link {
+    padding:5px 0px 5px 5px;
+}
+
+.more-link:after {
+    margin-right:7px;
+	margin-left: auto;
+}
+
+/* Sticky post */
+.sticky .entry-title:after {
+    float:left;
+}
+
+/* Chat format */
+.format-chat p {
+    padding:10px 40px 10px 10px;
+}
+
+.format-chat p:before {
+    margin-right:-27px;
+    margin-left:8px;
+}
+
+/* Password protected post */
+
+.post-password-form label input {
+    margin-right:10px;
+    margin-left:10px;
+}
+
+/* Next and previous links */
+
+.mnky-post-links .previous-post-link {
+    float:right;
+}
+
+.mnky-post-links .next-post-link {
+    float:left;
+}
+
+/* Page links */
+
+.page-links span.page-links-title {
+    margin:0px 0px 0px 10px;
+    text-align:right;
+}
+
+.styled-paging {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+/* Author info */
+
+#wrapper .author img {
+    float:right;
+}
+
+#wrapper .author .author-info a {
+    margin-right:10px;
+	margin-left: auto;
+}
+
+#wrapper .author .fn, #wrapper .author .author-info {
+    margin-right:130px;
+	margin-left: auto;
+}
+
+/* Author page */
+
+.author  #wrapper .author .fn, .author  #wrapper .author .author-info {
+    margin-right:180px;
+	margin-left: auto;
+}
+
+.author-wrapper {
+    padding-right:30px;
+    padding-left:30px;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text:focus {
+    right: 5px;
+	left: auto;
+}
+
+/*---------------------------------------------------------------*/
+/* 07. Images
+/*---------------------------------------------------------------*/
+
+img.alignright {
+    margin-left: 1.5em;
+	margin-right: auto;
+}
+
+img.alignleft {
+    margin-right: 1.5em;
+	margin-left: auto;
+}
+
+/* WordPress Captions */
+
+.wp-caption.alignright {
+    margin-left:1.5em;
+	margin-right: auto;
+}
+
+.wp-caption.alignleft {
+    margin-right:1.5em;
+	margin-left: auto;
+}
+
+.wp-caption .wp-caption-text span {
+    float:left;
+}
+
+.wp-caption figcaption {
+    text-align: right;
+}
+
+/* WordPress Gallery */
+
+.gallery-item {
+    float: right;
+}
+
+.gallery-caption {
+    right: 0;
+    text-align: right;
+	left: auto;
+}
+
+
+/*---------------------------------------------------------------*/
+/* 08. Comments
+/*---------------------------------------------------------------*/
+/* Comment list */
+
+#comments .comment-list li article {
+    margin-right:2px;
+    margin-left:2px;
+}
+
+#comments .comment-list .children {
+    padding-right:30px;
+	padding-left: 0;
+}
+
+#comments .comment-body {
+    padding: 0 80px 30px 0;
+}
+
+#comments .comment-author img {
+    float:right;
+    margin-left:20px;
+	margin-right: auto;
+}
+
+#comments .reply {
+    left:40px;
+	right: auto;
+}
+
+#comments .comment-navigation .nav-next {
+    float:left;
+}
+
+#comments .nav-previous a:before {
+    margin-right:1px;
+	margin-left: auto;
+}
+
+#comments .nav-next a:after {
+    margin-right:7px;
+    margin-left:1px;
+}
+
+/* Pingbacks and trackbacks */
+
+#comments .pingback .comment-body:before {
+    padding-left: 8px;
+	padding-right: 0;
+}
+
+/* Comment form */
+
+#comments h3.comment-reply-title #cancel-comment-reply-link {
+    float:left;
+    margin-left:2px;
+	margin-right: auto;
+}
+
+/* Comment form columns */
+
+.col_container .col_3 {
+    float: right;
+    padding-left: 20px;
+	padding-right: 0;
+}
+
+.col_container .col_3:last-child {
+    padding-left:0px;
+	padding-right: 0;
+}
+
+/*---------------------------------------------------------------*/
+/* 09. Footer
+/*---------------------------------------------------------------*/
+
+/* Scroll to top button */
+.scrollToTop {
+    left:15px;
+	right: auto;
+}
+
+/*---------------------------------------------------------------*/
+/* 10. Widgets
+/*---------------------------------------------------------------*/
+
+/* Default widget style */
+
+.widget ul ul li {
+    margin-right:10px;
+    padding-right:0px;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+/* Copyright widget style */
+
+.site-info .recentcomments {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+.site-info .recentcomments:first-child {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+.site-info ul li {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+.site-info ul li:last-child {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+.site-info ul ul li a {
+    padding:0px 0px 0px 10px;
+}
+
+/* Top bar widget style */
+
+#top-bar .widget-container {
+    margin-left:40px;
+	margin-right: auto;
+}
+
+#top-bar .widget-container:last-child {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+#top-bar .widget-title {
+    margin-left:10px;
+    float:right;
+	margin-right: auto;
+}
+
+#top-bar .recentcomments {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+#top-bar .recentcomments:first-child {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#top-bar ul li {
+    float:right;
+}
+
+#top-bar ul ul li:first-child a {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#top-bar ul ul li:last-child a {
+    padding-left:0px;
+    border-left: none;
+	padding-right: 0;
+	border-right: none;
+}
+
+#top-bar #topleft-widget-area ul {
+    float:left;
+}
+
+/* Header widget style */
+
+#header-sidebar .widget-container {
+    margin-left:40px;
+	margin-right: auto;
+}
+
+#header-sidebar .widget-container:last-child {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+#header-sidebar .widget-title {
+    margin-left:10px;
+    float:right;
+	margin-right: auto;
+}
+
+#header-sidebar .recentcomments {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+#header-sidebar .recentcomments:first-child {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#header-sidebar ul li {
+    float:right;
+}
+
+#header-sidebar ul ul li a {
+    padding:0px 0px 0px 10px;
+}
+
+#header-sidebar ul ul li a:after {
+    margin-right:10px;
+	margin-left: auto;
+}
+
+#header-sidebar ul ul li:last-child a:after {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+#header-sidebar ul ul li:first-child a {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#header-sidebar ul ul li:last-child a {
+    padding-left:0px;
+    border-left: none;
+	padding-right: 0;
+	border-right: none;
+}
+
+/* Menu widget style */
+#menu-sidebar {
+    padding-right:10px;
+    float:right;
+	padding-left: 0;
+}
+
+#menu-sidebar .widget-container {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+#menu-sidebar .widget-title {
+    margin-left:10px;
+    float:right;
+	margin-right: auto;
+}
+
+#menu-sidebar .recentcomments {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+#menu-sidebar .recentcomments:first-child {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#menu-sidebar ul li {
+    float:right;
+}
+
+#menu-sidebar ul ul li a {
+    padding:0px 0px 0px 10px;
+}
+
+#menu-sidebar ul ul li a:after {
+    margin-right:10px;
+	margin-left: auto;
+}
+
+#menu-sidebar ul ul li:last-child a:after {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+#menu-sidebar ul ul li:first-child a {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#menu-sidebar ul ul li:last-child a {
+    padding-left:0px;
+    border-left: none;
+	padding-right: 0;
+	border-right: none;
+}
+
+/* Secondary menu widget style */
+
+#secondary-menu-sidebar .widget-container {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+#secondary-menu-sidebar .recentcomments {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+#secondary-menu-sidebar .recentcomments:first-child {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#secondary-menu-sidebar ul li {
+    float:right;
+}
+
+#secondary-menu-sidebar ul ul li a {
+    padding:0px 0px 0px 10px;
+}
+
+#secondary-menu-sidebar ul ul li a:after {
+    margin-right:10px;
+	margin-left: auto;
+}
+
+#secondary-menu-sidebar ul ul li:last-child a:after {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+#secondary-menu-sidebar ul ul li:first-child a {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+#secondary-menu-sidebar ul ul li:last-child a {
+    padding-left:0px;
+    border-left: none;
+	padding-right: 0;
+	border-right: none;
+}
+
+#secondary-menu-sidebar ul ul li.list-title {
+    padding-left:15px;
+	padding-right: 0;
+}
+
+/* SINGLE WIDGET STYLES */
+/* Category & Archive Widget */
+
+.widget_archive ul li, .widget_categories ul li {
+    text-align:left;
+}
+
+.widget_archive a, .widget_categories a {
+    float:right;
+}
+
+/* WP Menu Widget */
+#sidebar .widget.widget_nav_menu  ul li.menu-item-has-children > a:after {
+    margin-right:10px;
+	margin-left: auto;
+}
+
+#header-sidebar .widget_nav_menu ul li.dropdown:hover > a {
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+}
+
+#header-sidebar .widget_nav_menu ul li.dropdown ul {
+    right: 0px;
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+	left: auto;
+}
+
+#header-sidebar .widget_nav_menu ul li.dropdown ul li:last-child a {
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+}
+
+#header-sidebar .widget_nav_menu ul li.dropdown a:after {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+#menu-sidebar .widget_nav_menu ul li.dropdown:hover > a {
+    border-bottom-right-radius:0px;
+    border-bottom-left-radius:0px;
+}
+
+#menu-sidebar .widget_nav_menu ul li.dropdown ul {
+    right: 0px;
+	left: auto;
+}
+
+#menu-sidebar .widget_nav_menu ul li.dropdown a:after {
+    padding-right: 20px;
+	padding-left: 0;
+}
+
+/* WP Calendar */
+
+#wp-calendar caption {
+    text-align: left;
+}
+
+#wp-calendar tfoot #next {
+    text-align: left;
+    padding-left:10px;
+	padding-right: 0;
+}
+
+#wp-calendar tfoot #prev {
+    padding-right:10px;
+	padding-left: 0;
+}
+
+
+/*---------------------------------------------------------------*/
+/* 11. Plugins
+/*---------------------------------------------------------------*/
+
+/* CORE EXTEND */
+
+/* Button */
+.mnky_button {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+.mnky_button:last-child {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+.mnky_button a i {
+    padding-right:1px;
+    margin-right:35px;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+/* Button 2 */
+.vc_btn3, a.vc_btn3, button.vc_btn3 {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+/* Heading */
+.heading_wrapper {
+    text-align:right;
+}
+
+.heading-category {
+    margin-left:15px;
+	margin-right: auto;
+}
+
+/* List */
+.custom-list-item {
+    margin-right: 1.65em;
+	margin-left: auto;
+}
+
+.custom-list-item i {
+    margin-right:-1.5em;
+	margin-left: auto;
+}
+
+.text-aligncenter .custom-list-item {
+    margin-right:2.55em;
+	margin-left: auto;
+}
+
+.text-aligncenter .custom-list-item i {
+    margin-right:-30px;
+	margin-left: auto;
+}
+
+/* Service Box */
+.service-box {
+    text-align:right;
+}
+
+.service-box i {
+    margin-right:5px;
+    right:0px;
+	left: auto;
+	margin-left: auto;
+}
+
+.service-content {
+    margin-right:65px;
+    padding-left:5px;
+	padding-right: 0;
+	margin-left: auto;
+}
+
+/* Service Box Right Align */
+.service-box.sb_left .service-content {
+    margin-left:70px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:5px;
+}
+
+.service-box.sb_left {
+    text-align:left;
+}
+
+.service-box.sb_left i {
+    float:left;
+    margin-right:0px;
+    margin-left:5px;
+}
+
+/* Service Box Center Align */
+.service-box.sb_center .service-content {
+    margin-right:0px;
+    padding-left:0px;
+	padding-right: 0;
+	margin-left: auto;
+}
+
+/* Toggle */
+.vc_toggle_default.vc_toggle_active .vc_toggle_title .vc_toggle_icon:after {
+    margin-right:-2px;
+	margin-left: auto;
+}
+
+.vc_toggle_size_md.vc_toggle_simple .vc_toggle_title, .vc_toggle_size_md.vc_toggle_round .vc_toggle_title, .vc_toggle_size_md.vc_toggle_rounded .vc_toggle_title, .vc_toggle_size_md.vc_toggle_square .vc_toggle_title, .vc_toggle_size_md.vc_toggle_simple .vc_toggle_content, .vc_toggle_size_md.vc_toggle_round .vc_toggle_content, .vc_toggle_size_md.vc_toggle_rounded .vc_toggle_content, .vc_toggle_size_md.vc_toggle_square .vc_toggle_content {
+    padding-right:40px;
+	padding-left: 0;
+}
+
+/* Progress bar */
+
+.vc_progress_bar .vc_single_bar .vc_label {
+    text-align:right;
+}
+
+.vc_label_units {
+    padding-right:4px;
+	padding-left: 0;
+}
+
+/* Pricing box */
+
+.pricing-box .plan-badge {
+    left:-15px;
+	right: auto;
+}
+
+.pricing-box.box-style-2 .plan-header {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.pricing-box.box-style-2 .plan-title {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.pricing-box.box-style-2 .plan-badge {
+    left:-18px;
+	right: auto;
+}
+
+.pricing-box.box-style-2 .plan-arrow {
+    right:50%;
+    margin-right:-10px;
+	left: auto;
+	margin-left: auto;
+}
+
+/* Style 3 */
+
+.pricing-box.box-style-3 .plan-header .plan-title-wrapper {
+    border-top-right-radius:2px;
+    border-top-left-radius:2px;
+}
+
+.pricing-box.box-style-3 .plan-currency {
+    padding-right:1px;
+	padding-left: 0;
+}
+
+.pricing-box.box-style-3 .plan-badge {
+    left:-13px;
+	right: auto;
+}
+
+.pricing-box.box-style-3 .plan-arrow {
+    right:50%;
+    margin-right:-10px;
+	left: auto;
+	margin-left: auto;
+}
+
+.pricing-box.box-style-4 .plan-header {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.pricing-box.box-style-4 .plan-currency {
+    margin-right:-8px;
+	margin-left: auto;
+}
+
+/* Countdown */
+
+.countdown_wrapper div {
+    float:right;
+    border-left:1px solid #ccc;
+	border-right: none;
+}
+
+.countdown_wrapper div:last-child {
+    border-left:none;
+	border-right: none;
+}
+
+/* Commercial */
+
+.commercial .label {
+    text-align:left;
+}
+
+/* Menu posts */
+
+#site-navigation .mnky-menu-posts .menu-post-container {
+    margin-left:1.5%;
+    float:right;
+	margin-right: auto;
+}
+
+#site-navigation .mnky-menu-posts .menu-post-container:last-child {
+    margin-left:0%;
+	margin-right: auto;
+}
+
+/* Related posts */
+
+.mnky-related-posts .related-post-container {
+    margin-left:1.5%;
+    float:right;
+	margin-right: auto;
+}
+
+.mnky-related-posts .related-post-container:last-child {
+    margin-left:0%;
+	margin-right: auto;
+}
+
+#sidebar .mnky-related-posts .related-post-container:nth-child(even) {
+    margin-left:0%;
+	margin-right: auto;
+}
+
+/* Posts */
+
+.mp-container.mp-post-secondary {
+    float:right;
+}
+
+.mp-container.mp-post-odd {
+    float:left;
+}
+
+.mp-container .mp-date {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+.mp-container .mp-author {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+.mp-container .mp-author.mp-author-divider {
+    border-left:1px solid #ccc;
+    margin-left:7px;
+    padding-left:7px;
+	padding-right: 0;
+	margin-right: auto;
+	border-right: none;
+}
+
+.mp-container .mp-comment a {
+    padding-left:12px;
+	padding-right: 0;
+}
+
+.mp-container .mp-comment i {
+    padding-left:0px;
+	padding-right: 3px;
+}
+
+/* Posts - Layout 2 - right cover */
+
+.mp-layout-2 .mp-container .mp-content {
+    margin: -90px 20% 0 0;
+}
+
+.mp-layout-2 .mp-container.mp-post-secondary .mp-content {
+    margin: -40px 20% 0 0;
+}
+
+/* Posts - Layout 3 - right cover */
+.mp-layout-3 .mp-container .mp-content {
+    margin: -90px 0 0 30%;
+}
+
+.mp-layout-3 .mp-container .mp-content {
+    margin: -90px 0 0 20%;
+}
+
+.mp-layout-3 .mp-container.mp-post-secondary .mp-content {
+    margin: -40px 0 0 20%;
+}
+
+/* Posts - Layout 6 - image left */
+
+.mp-layout-6 .mp-container .mp-image {
+    float:right;
+    margin-left:20px;
+	margin-right: auto;
+}
+
+/* Posts - Layout 7 - image left boxed style */
+
+.mp-layout-7 .mp-container .mp-image {
+    float:right;
+    margin-left:20px;
+	margin-right: auto;
+}
+
+.mp-layout-7 .mp-container .mp-date {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+.mp-layout-7 .mp-container .mp-comment a {
+    padding-left:10px;
+	padding-right: 0;
+}
+
+/* Posts - Layout 10 - breaking news */
+
+.mp-layout-10 .mp-container .breaking-placeholder {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+/* Posts grid */
+
+.mnky-posts-grid .mpg-item {
+    float:right;
+	box-shadow: 5px 0px 0px rgba(255, 255, 255, 1), 0px -5px 0px rgba(255, 255, 255, 1);
+}
+
+/* Video & Gallery format */
+.mnky-posts-grid .post-format-video .mpg-icon:before, .mnky-posts-grid .post-format-gallery .mpg-icon:before {
+    left:15px;
+	right: auto;
+}
+
+.mnky-menu-posts .post-format-video .mmp-img:before, .mnky-menu-posts .post-format-gallery .mmp-img:before {
+    right:50%;
+    margin-right:-27px;
+	left: auto;
+	margin-left: auto;
+}
+
+.mnky-related-posts .post-format-video .mrp-img:before, .mnky-related-posts .post-format-gallery .mrp-img:before {
+    right:50%;
+    margin-right:-27px;
+	left: auto;
+	margin-left: auto;
+}
+
+.mnky-posts .post-format-video .mp-image:before, .mnky-posts .post-format-gallery .mp-image:before {
+    right:50%;
+    margin-right:-37px;
+	left: auto;
+	margin-left: auto;
+}
+
+.mp-layout-6.mnky-posts .post-format-video .mp-image:before, .mp-layout-6.mnky-posts .post-format-gallery .mp-image:before {
+    right:50%;
+    margin-right:-27px;
+	left: auto;
+	margin-left: auto;
+}
+
+.mp-layout-7.mnky-posts .post-format-video .mp-image:before, .mp-layout-7.mnky-posts .post-format-gallery .mp-image:before {
+    right:50%;
+    margin-right:-27px;
+	left: auto;
+	margin-left: auto;
+}
+
+.mp-layout-9.mnky-posts .post-format-video .format-icon:before, .mp-layout-9.mnky-posts .post-format-gallery .format-icon:before {
+    left:15px;
+	right: auto;
+}
+
+/* WOOCOMMERCE */
+.woocommerce-product-gallery .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image{
+	float:right;
+	margin-left:2.6%;
+	margin-right:auto
+}
+
+.woocommerce-product-gallery .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:nth-child(4n+5){
+	margin-left:0px;
+	margin-right:auto
+}
+
+.widget_shopping_cart_content a.remove {
+    float:right;
+    margin-left:5px;
+	margin-right: auto;
+}
+
+#site-utility .header_cart_widget {
+    left:0;
+	right: auto;
+}
+
+#site-utility .header_cart_widget .woocommerce .buttons a:first-child {
+    margin-left:20px;
+	margin-right: auto;
+}
+
+#site-utility .header_cart_widget .woocommerce .variation {
+    border-right:none;
+	border-left: none;
+}
+
+#site-utility .header_cart_widget .woocommerce dl {
+    margin:0px 12px 0px 0px;
+}
+
+#site-utility .header_cart_widget .woocommerce dl dt {
+    float:right;
+    clear:right;
+    margin:0 0 0 .25em;
+}
+
+.woocommerce-info:before {
+    margin-left:10px;
+    margin-right:1px;
+}
+
+.woocommerce .widget ins {
+    margin-right:5px;
+	margin-left: auto;
+}
+
+.woocommerce #ship-to-different-address-checkbox {
+    margin-left:auto;
+	margin-right: 10px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+.shop-template .product-inner,.woocommerce .product-inner {
+    text-align:right;
+}
+
+.shop-template h2,.entry-content .woocommerce h2 {
+    text-align:right;
+}
+
+.shop-template h3,.entry-content .woocommerce h3 {
+    text-align:right;
+}
+
+.woocommerce input#s {
+    margin-left:5px;
+	margin-right: auto;
+}
+
+.woocommerce .variations .reset_variations {
+    float:left;
+}
+
+.woocommerce ul.products li.product,.woocommerce-page ul.products li.product {
+    float:right;
+    margin:0 0 0.2% 0.2%;
+}
+
+.woocommerce ul.products li.last,.woocommerce-page ul.products li.last {
+    margin-left:0;
+	margin-right: auto;
+}
+
+.woocommerce th {
+    text-align:right;
+}
+
+.woocommerce-message .button,.woocommerce-error .button,.woocommerce-info .button {
+    float:left;
+}
+
+.woocommerce-message li,.woocommerce-error li,.woocommerce-info li {
+    padding-right:0;
+    margin-right:0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+p.demo_store {
+    right:0;
+    left:0;
+}
+
+.woocommerce .col2-set .col-1,.woocommerce-page .col2-set .col-1 {
+    float:right;
+}
+
+.woocommerce .col2-set .col-2,.woocommerce-page .col2-set .col-2 {
+    float:left;
+}
+
+.woocommerce div.product div.images,.woocommerce #content div.product div.images,.woocommerce-page div.product div.images,.woocommerce-page #content div.product div.images {
+    float:right;
+}
+
+.woocommerce div.product div.images div.thumbnails a,.woocommerce #content div.product div.images div.thumbnails a,.woocommerce-page div.product div.images div.thumbnails a,.woocommerce-page #content div.product div.images div.thumbnails a {
+    float:right;
+    margin-left:3.8%;
+	margin-right: auto;
+}
+
+.woocommerce div.product div.images div.thumbnails a.last,.woocommerce #content div.product div.images div.thumbnails a.last,.woocommerce-page div.product div.images div.thumbnails a.last,.woocommerce-page #content div.product div.images div.thumbnails a.last {
+    margin-left:0;
+	margin-right: auto;
+}
+
+.woocommerce div.product div.summary,.woocommerce #content div.product div.summary,.woocommerce-page div.product div.summary,.woocommerce-page #content div.product div.summary {
+    float:left;
+}
+
+.woocommerce div.product div.social,.woocommerce #content div.product div.social,.woocommerce-page div.product div.social,.woocommerce-page #content div.product div.social {
+    text-align:left;
+}
+
+.woocommerce div.product div.social span,.woocommerce #content div.product div.social span,.woocommerce-page div.product div.social span,.woocommerce-page #content div.product div.social span {
+    margin:0 2px 0 0;
+}
+
+.woocommerce div.product div.social span .stButton .chicklets,.woocommerce #content div.product div.social span .stButton .chicklets,.woocommerce-page div.product div.social span .stButton .chicklets,.woocommerce-page #content div.product div.social span .stButton .chicklets {
+    padding-right:16px;
+	padding-left: 0;
+}
+
+.woocommerce div.product div.social iframe,.woocommerce #content div.product div.social iframe,.woocommerce-page div.product div.social iframe,.woocommerce-page #content div.product div.social iframe {
+    float:right;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs,.woocommerce #content div.product .woocommerce-tabs ul.tabs,.woocommerce-page div.product .woocommerce-tabs ul.tabs,.woocommerce-page #content div.product .woocommerce-tabs ul.tabs {
+    padding:0 1em 0 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before,.woocommerce #content div.product .woocommerce-tabs ul.tabs li:before,.woocommerce-page div.product .woocommerce-tabs ul.tabs li:before,.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before {
+    right:-6px;
+	left: auto;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after,.woocommerce #content div.product .woocommerce-tabs ul.tabs li:after,.woocommerce-page div.product .woocommerce-tabs ul.tabs li:after,.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:after {
+    left:-6px;
+	right: auto;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs:before,.woocommerce #content div.product .woocommerce-tabs ul.tabs:before,.woocommerce-page div.product .woocommerce-tabs ul.tabs:before,.woocommerce-page #content div.product .woocommerce-tabs ul.tabs:before {
+    right:0;
+	left: auto;
+}
+
+.woocommerce div.product form.cart div.quantity,.woocommerce #content div.product form.cart div.quantity,.woocommerce-page div.product form.cart div.quantity,.woocommerce-page #content div.product form.cart div.quantity {
+    float:right;
+    margin:0 0 0 6px;
+}
+
+.woocommerce div.product form.cart table td,.woocommerce #content div.product form.cart table td,.woocommerce-page div.product form.cart table td,.woocommerce-page #content div.product form.cart table td {
+    padding-right:0;
+	padding-left: 0;
+}
+
+.woocommerce div.product form.cart .variations label,.woocommerce #content div.product form.cart .variations label,.woocommerce-page div.product form.cart .variations label,.woocommerce-page #content div.product form.cart .variations label {
+    padding:7px 0 0 10px;
+}
+
+.woocommerce div.product form.cart .variations select,.woocommerce #content div.product form.cart .variations select,.woocommerce-page div.product form.cart .variations select,.woocommerce-page #content div.product form.cart .variations select {
+    float:right;
+}
+
+.woocommerce div.product form.cart .variations td.label,.woocommerce #content div.product form.cart .variations td.label,.woocommerce-page div.product form.cart .variations td.label,.woocommerce-page #content div.product form.cart .variations td.label {
+    padding-left:1em;
+	padding-right: 0;
+}
+
+.woocommerce div.product form.cart .button,.woocommerce #content div.product form.cart .button,.woocommerce-page div.product form.cart .button,.woocommerce-page #content div.product form.cart .button {
+    float:right;
+}
+
+.woocommerce div.product form.cart .group_table td.label,.woocommerce #content div.product form.cart .group_table td.label,.woocommerce-page div.product form.cart .group_table td.label,.woocommerce-page #content div.product form.cart .group_table td.label {
+    padding-left:1em;
+    padding-right:1em;
+}
+
+.woocommerce .product-col-3 ul.products li.product,.woocommerce-page .product-col-3 ul.products li.product {
+    float:right;
+    margin:0 0 0.2% 0.2%;
+}
+
+.woocommerce .product-col-4 ul.products li.product,.woocommerce-page .product-col-4 ul.products li.product {
+    float:right;
+    margin:0 0 0.2% 0.2%;
+}
+
+.woocommerce span.onsale,.woocommerce-page span.onsale {
+    right:10px;
+	left: auto;
+}
+
+.woocommerce ul.products li.product .onsale,.woocommerce-page ul.products li.product .onsale {
+    left:10px;
+    right:auto;
+}
+
+.woocommerce .product-col-3 ul.products li.last,.woocommerce-page .product-col-3 ul.products li.last,.woocommerce .product-col-4 ul.products li.last,.woocommerce-page .product-col-4 ul.products li.last {
+    margin-left:0;
+	margin-right: auto;
+}
+
+.woocommerce .woocommerce-result-count,.woocommerce-page .woocommerce-result-count {
+    float:right;
+}
+
+.woocommerce .woocommerce-ordering,.woocommerce-page .woocommerce-ordering {
+    margin:0 0 1em 1px;
+    float:left;
+}
+
+.woocommerce nav.woocommerce-pagination,.woocommerce #content nav.woocommerce-pagination,.woocommerce-page nav.woocommerce-pagination,.woocommerce-page #content nav.woocommerce-pagination {
+    text-align:right;
+}
+
+.woocommerce nav.woocommerce-pagination ul,.woocommerce #content nav.woocommerce-pagination ul,.woocommerce-page nav.woocommerce-pagination ul,.woocommerce-page #content nav.woocommerce-pagination ul {
+    border-left:0;
+	border-right: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul li,.woocommerce #content nav.woocommerce-pagination ul li,.woocommerce-page nav.woocommerce-pagination ul li,.woocommerce-page #content nav.woocommerce-pagination ul li {
+    float:right;
+}
+
+.woocommerce a.add_to_cart_button.button:before {
+    padding-left:10px;
+	padding-right: 0;
+}
+
+.woocommerce a.added_to_cart,.woocommerce-page a.added_to_cart {
+    right:50%;
+    margin-right:-70px;
+	left: auto;
+	margin-left: auto;
+}
+
+.woocommerce a.added_to_cart:before,.woocommerce-page a.added_to_cart:before {
+    padding-left:10px;
+	padding-right: 0;
+}
+
+.woocommerce a.added_to_cart:before,.woocommerce-page a.added_to_cart:before {
+    padding-left:10px;
+	padding-right: 0;
+}
+
+.woocommerce #reviews h2 small,.woocommerce-page #reviews h2 small {
+    float:left;
+}
+
+.woocommerce #reviews #comments .add_review,.woocommerce-page #reviews #comments .add_review {
+    float:left;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar,.woocommerce-page #reviews #comments ol.commentlist li img.avatar {
+    float:right;
+    right:auto;
+	left: auto;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text,.woocommerce-page #reviews #comments ol.commentlist li .comment-text {
+    margin:0 50px 0 0;
+}
+
+.woocommerce .star-rating,.woocommerce-page .star-rating {
+    float:left;
+}
+
+.woocommerce .star-rating:before,.woocommerce-page .star-rating:before {
+    float:right;
+    right:0;
+	left: auto;
+}
+
+.woocommerce .star-rating span,.woocommerce-page .star-rating span {
+    float:right;
+    right:0;
+	left: auto;
+}
+
+.woocommerce .star-rating span:before,.woocommerce-page .star-rating span:before {
+    right:0;
+	left: auto;
+}
+
+.woocommerce #review_form .comment-form-author,.woocommerce-page #review_form .comment-form-author,.woocommerce #review_form .comment-form-email,.woocommerce-page #review_form .comment-form-email {
+    float: right;
+    margin-left: 2%;
+	margin-right: auto;
+}
+
+.woocommerce #review_form .comment-form-email,.woocommerce-page #review_form .comment-form-email {
+	margin-left:0;
+}
+
+.woocommerce #review_form #respond .form-submit input,.woocommerce-page #review_form #respond .form-submit input {
+    right:auto;
+	left: auto;
+}
+
+.woocommerce p.stars span,.woocommerce-page p.stars span{
+	float:rightt; background:url(images/star.png) repeat-x right 0
+}
+
+.woocommerce p.stars span a,.woocommerce-page p.stars span a{
+	float:right; 
+	right:0; 
+	left:auto;
+}
+
+.woocommerce p.stars span a:hover,.woocommerce p.stars span a:focus,.woocommerce-page p.stars span a:hover,.woocommerce-page p.stars span a:focus{
+	background:url(images/star.png) repeat-x right -16px
+}
+
+.woocommerce p.stars span a.active,.woocommerce-page p.stars span a.active{
+	background:url(images/star.png) repeat-x right -32px
+}
+
+.woocommerce table.shop_table,.woocommerce-page table.shop_table {
+    margin:0 0 24px -1px;
+    text-align:right;
+}
+
+.woocommerce table.my_account_orders .order-actions,.woocommerce-page table.my_account_orders .order-actions {
+    text-align:left;
+}
+
+.woocommerce table.my_account_orders .order-actions .button,.woocommerce-page table.my_account_orders .order-actions .button {
+    margin:.125em .25em .125em 0;
+}
+
+.woocommerce td.product-name dl.variation dt,.woocommerce-page td.product-name dl.variation dt {
+    float:right;
+    clear:right;
+    margin:0 0 0 .25em;
+}
+
+.woocommerce table.cart td.actions,.woocommerce #content table.cart td.actions,.woocommerce-page table.cart td.actions,.woocommerce-page #content table.cart td.actions {
+    text-align:left;
+    padding-right:2px;
+    padding-left:2px;
+}
+
+.woocommerce table.cart td.actions .coupon,.woocommerce #content table.cart td.actions .coupon,.woocommerce-page table.cart td.actions .coupon,.woocommerce-page #content table.cart td.actions .coupon {
+    float:right;
+}
+
+.woocommerce table.cart td.actions .coupon .input-text,.woocommerce #content table.cart td.actions .coupon .input-text,.woocommerce-page table.cart td.actions .coupon .input-text,.woocommerce-page #content table.cart td.actions .coupon .input-text {
+    float:right;
+    margin:0 0 0 20px;
+}
+
+.woocommerce table.cart td.actions .button.alt,.woocommerce #content table.cart td.actions .button.alt,.woocommerce-page table.cart td.actions .button.alt,.woocommerce-page #content table.cart td.actions .button.alt {
+    float:left;
+    margin-right:.25em;
+	margin-left: auto;
+}
+
+.woocommerce ul.cart_list li img,.woocommerce ul.product_list_widget li img,.woocommerce-page ul.cart_list li img,.woocommerce-page ul.product_list_widget li img {
+    float:left;
+    margin-right:4px;
+	margin-left: auto;
+}
+
+.woocommerce ul.cart_list li dl,.woocommerce ul.product_list_widget li dl,.woocommerce-page ul.cart_list li dl,.woocommerce-page ul.product_list_widget li dl {
+    padding-right:1em;
+    border-right:2px solid rgba(0,0,0,0.05);
+	padding-left: 0;
+	border-left: none;
+}
+
+.woocommerce ul.cart_list li dl dt,.woocommerce ul.product_list_widget li dl dt,.woocommerce-page ul.cart_list li dl dt,.woocommerce-page ul.product_list_widget li dl dt {
+    float:right;
+    clear:right;
+    margin-left:.25em;
+	margin-right: auto;
+}
+
+.woocommerce  .widget_product_categories .count {
+    float:left;
+}
+
+.woocommerce .woocommerce-product-search input.search-field {
+    margin-left:15px;
+	margin-right: auto;
+}
+
+.woocommerce .cart-collaterals .related,.woocommerce-page .cart-collaterals .related {
+    float:right;
+}
+
+.woocommerce .cart-collaterals .cross-sells,.woocommerce-page .cart-collaterals .cross-sells {
+    float:right;
+}
+
+.woocommerce .cart-collaterals .shipping_calculator,.woocommerce-page .cart-collaterals .shipping_calculator {
+    text-align:left;
+    clear:left;
+    float:left;
+}
+
+.woocommerce .shipping-calculator-form p button.button {
+    margin-left:0;
+	margin-right: auto;
+}
+
+.woocommerce .cart-collaterals .cart_totals,.woocommerce-page .cart-collaterals .cart_totals {
+    float:left;
+    text-align:left;
+}
+
+.woocommerce form .form-row .input-checkbox,.woocommerce-page form .form-row .input-checkbox {
+    margin:-2px 0 0 8px;
+}
+
+.woocommerce form .form-row.validate-required.woocommerce-validated input.input-text,.woocommerce-page form .form-row.validate-required.woocommerce-validated input.input-text{
+	background-position:5% center;
+}
+
+.woocommerce form .form-row.validate-required.woocommerce-invalid input.input-text,.woocommerce-page form .form-row.validate-required.woocommerce-invalid input.input-text{
+	background-position:5% center;
+}
+
+.woocommerce form .form-row-first,.woocommerce form .form-row-last,.woocommerce-page form .form-row-first,.woocommerce-page form .form-row-last {
+    float:right;
+}
+
+.woocommerce form .form-row-last,.woocommerce-page form .form-row-last {
+    float:left;
+}
+
+.woocommerce form.login,.woocommerce form.checkout_coupon,.woocommerce form.register,.woocommerce-page form.login,.woocommerce-page form.checkout_coupon,.woocommerce-page form.register {
+    text-align:right;
+}
+
+.woocommerce ul#shipping_method li,.woocommerce-page ul#shipping_method li {
+    padding:.25em 22px .25em 0;
+}
+
+.woocommerce .checkout .col-2 h3,.woocommerce-page .checkout .col-2 h3 {
+    float:right;
+}
+
+.woocommerce .checkout .col-2 .notes,.woocommerce-page .checkout .col-2 .notes {
+    clear:right;
+}
+
+.woocommerce .checkout .col-2 .form-row-first,.woocommerce-page .checkout .col-2 .form-row-first {
+    clear:right;
+}
+
+.woocommerce .checkout div.shipping-address,.woocommerce-page .checkout div.shipping-address {
+    clear:right;
+}
+
+.woocommerce .checkout #shiptobilling,.woocommerce-page .checkout #shiptobilling {
+    float:left;
+}
+
+.woocommerce .checkout #shiptobilling label,.woocommerce-page .checkout #shiptobilling label {
+    margin-right:-10px;
+	margin-left: auto;
+}
+
+.woocommerce #payment ul.payment_methods,.woocommerce-page #payment ul.payment_methods {
+    text-align:right;
+}
+
+.woocommerce #payment ul.payment_methods li,.woocommerce-page #payment ul.payment_methods li {
+    text-align:right;
+}
+
+.woocommerce #payment ul.payment_methods li input,.woocommerce-page #payment ul.payment_methods li input {
+    margin:0 0 0 1em;
+}
+
+.woocommerce #payment #place_order,.woocommerce-page #payment #place_order {
+    float:left;
+}
+
+.woocommerce #payment .terms,.woocommerce-page #payment .terms {
+    text-align:left;
+}
+
+.woocommerce #payment div.payment_box #cc-expire-month,.woocommerce #payment div.payment_box #cc-expire-year,.woocommerce-page #payment div.payment_box #cc-expire-month,.woocommerce-page #payment div.payment_box #cc-expire-year {
+    float:right;
+}
+
+.woocommerce #payment div.payment_box #cc-expire-year,.woocommerce-page #payment div.payment_box #cc-expire-year {
+    float:left;
+}
+
+.woocommerce #payment div.payment_box .form-row select,.woocommerce-page #payment div.payment_box .form-row select {
+    float:right;
+    margin-left:3.8%;
+	margin-right: auto;
+}
+
+.woocommerce #payment div.payment_box .form-row select:nth-child(3n),.woocommerce-page #payment div.payment_box .form-row select:nth-child(3n) {
+    margin-left:0;
+	margin-right: auto;
+}
+
+.woocommerce #payment div.payment_box:after,.woocommerce-page #payment div.payment_box:after {
+    border-left-color:transparent;
+    border-right-color:transparent;
+    right:0;
+    margin:-1em 2em 0 0;
+	left: auto;
+}
+
+.woocommerce .order_details li,.woocommerce-page .order_details li {
+    float:right;
+    margin-left:2em;
+    border-left:1px dashed #dfdbdf;
+    padding-left:2em;
+	padding-right: 0;
+	margin-right: auto;
+	border-right: none;
+}
+
+.woocommerce .addresses .title h3,.woocommerce-page .addresses .title h3 {
+    float:right;
+}
+
+.woocommerce .addresses .title .edit,.woocommerce-page .addresses .title .edit {
+    float:left;
+}
+
+.woocommerce ul.digital-downloads,.woocommerce-page ul.digital-downloads {
+    margin-right:0;
+    padding-right:0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+.woocommerce ul.digital-downloads li,.woocommerce-page ul.digital-downloads li {
+    margin-right:0;
+    padding-right:1.5em;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+.woocommerce ul.digital-downloads li .count,.woocommerce-page ul.digital-downloads li .count {
+    float:left;
+}
+
+.woocommerce .widget_layered_nav ul li.chosen a,.woocommerce-page .widget_layered_nav ul li.chosen a {
+    padding:0 18px 0 6px;
+}
+
+.woocommerce .widget_layered_nav ul small.count,.woocommerce-page .widget_layered_nav ul small.count {
+    float:left;
+    margin-right:6px;
+	margin-left: auto;
+}
+
+.woocommerce .widget_layered_nav_filters ul li,.woocommerce-page .widget_layered_nav_filters ul li {
+    float:right;
+    padding:0 0 1px 1px;
+}
+
+.woocommerce .widget_layered_nav_filters ul li a,.woocommerce-page .widget_layered_nav_filters ul li a {
+    padding:0 18px 0 6px;
+    float:right;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount,.woocommerce-page .widget_price_filter .price_slider_amount {
+    text-align:left;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .button,.woocommerce-page .widget_price_filter .price_slider_amount .button {
+    float:right;
+}
+
+.woocommerce .widget_price_filter .ui-slider,.woocommerce-page .widget_price_filter .ui-slider {
+    text-align:right;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle:last-child,.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle:last-child {
+    margin-right:-1.13em;
+	margin-left: auto;
+}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-min,.woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range-min {
+    right:-1px;
+	left: auto;
+}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-max,.woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range-max {
+    left:-1px;
+	right: auto;
+}
+
+
+/* CONTACT FORM 7 */
+.wpcf7 input.wpcf7-file {
+    padding-right:0px;
+    padding-left:10px;
+}
+
+/* Contact form 7 loader style */
+div.wpcf7 img.ajax-loader {
+    margin-right:20px;
+	margin-left: auto;
+}
+
+/* Contact form 7 message boxes */
+
+span.wpcf7-not-valid-tip:before {
+    margin-left:10px;
+	margin-right: auto;
+}
+
+/* Social Comments */
+#social_comments_control ul li img {
+    padding-left:10px;
+	padding-right: 0;
+}
+
+.ui-tabs#social_comments_control .ui-tabs-nav li:first-child a {
+    padding-right:0px;
+	padding-left: 0;
+}
+
+/*---------------------------------------------------------------*/
+/* 12. Mobile Menu
+/*---------------------------------------------------------------*/
+
+.mm-menu,
+.mm-menu > .mm-panel {
+    right: 0;
+	left: auto;
+}
+
+.mm-panel > .mm-list {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.mm-list > li > a,
+    .mm-list > li > span {
+    padding: 10px 20px 10px 10px;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+    right: 0;
+	left: auto;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+    margin-right: 20px;
+    right: auto;
+	left: auto;
+	margin-left: auto;
+}
+
+.mm-list a.mm-subopen {
+    left: 0;
+	right: auto;
+}
+
+.mm-list a.mm-subopen:before {
+    border-right-width: 0px;
+    border-right-style: solid;
+    right: 0;
+	left: auto;
+}
+
+.mm-list a.mm-subopen.mm-fullsubopen:before {
+    border-right: none;
+	border-left: none;
+}
+
+.mm-list a.mm-subopen + a,
+    .mm-list a.mm-subopen + span {
+    padding-left: 5px;
+    margin-left: 40px;
+	padding-right: 0;
+	margin-right: auto;
+}
+
+.mm-list > li.mm-selected > a.mm-fullsubopen + a,
+  .mm-list > li.mm-selected > a.mm-fullsubopen + span {
+    padding-left: 45px;
+    margin-left: 0;
+	padding-right: 0;
+	margin-right: auto;
+}
+
+.mm-list > li.mm-label {
+    padding-left: 5px;
+	padding-right: 0;
+}
+
+.mm-list a.mm-subopen:after {
+    left: 18px;
+	right: auto;
+	border-left: none;
+}
+
+.mm-list a.mm-subclose:before {
+    border-left: none;
+    right: 22px;
+	left: auto;
+	border-right: none;
+}
+
+.mm-menu.mm-vertical .mm-list .mm-panel {
+    padding: 10px 10px 10px 0;
+}
+
+/*
+	jQuery.mmenu offcanvas addon CSS
+*/
+
+#mm-blocker {
+    right: 0;
+	left: auto;
+}
+
+@media all and (max-width: 175px) {
+
+}
+
+@media all and (min-width: 550px) {
+
+}
+
+/*
+	jQuery.mmenu header addon CSS
+*/
+.mm-header {
+    right: 0;
+	left: auto;
+}
+
+.mm-header .mm-prev {
+    padding-right: 20px;
+    padding-left: 10px;
+    right: 0;
+	left: auto;
+}
+
+.mm-header .mm-next,
+  .mm-header .mm-close {
+    padding-right: 10px;
+    padding-left: 20px;
+    left: 0;
+	right: auto;
+}
+
+.mm-header [href].mm-prev:before {
+    margin-right: 2px;
+    margin-left: 5px;
+	border-right: none;
+}
+
+.mm-header [href].mm-next:after, .mm-header [href].mm-close:after {
+    margin-right: 5px;
+    margin-left: -2px;
+}
+
+.mm-header [href].mm-next:after {
+    border-right: none;
+	border-left: none;
+}
+
+/*
+	jQuery.mmenu effects extension CSS
+*/
+
+html.mm-zoom-menu.mm-opened .mm-menu {
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    -o-transform-origin: right center;
+    transform-origin: right center;
+}
+
+html.mm-zoom-menu.mm-left.mm-opened .mm-menu {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel {
+    -webkit-transform-origin: right center;
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    -o-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transition-property: -webkit-transform, right;
+    transition-property: transform, right;
+}
+
+/*
+	jQuery.mmenu fullscreen extension CSS
+*/
+
+@media all and (max-width: 140px) {
+
+}
+
+@media all and (min-width: 10000px) {
+
+}
+
+@media all and (max-width: 140px) {
+
+}
+
+@media all and (min-width: 10000px) {
+
+}
+
+/*
+	jQuery.mmenu position extension CSS
+*/
+
+.mm-menu.mm-left {
+    right: auto;
+    left: 0;
+}
+
+@media all and (max-width: 175px) {
+
+}
+
+@media all and (min-width: 550px) {
+
+}
+
+/*
+	Theme Style
+*/
+
+.mm-list a.mm-subopen + a, .mm-list a.mm-subopen + span {
+    padding-left:0px;
+    margin-left:0px;
+	padding-right: 30px;
+	margin-right: auto;
+}
+
+.mm-header .mm-title, .mm-header .mm-close {
+    text-align:right;
+}
+
+.mm-header .mm-prev {
+    right:auto;
+    left:0px;
+    padding-left:20px;
+	padding-right: 0;
+}
+
+.mm-list > li > a, .mm-list > li > span {
+    padding:12px 30px 12px 10px;
+}
+
+.mm-list > li:not(.mm-subtitle):not(.mm-noresults):not(.mm-search):not(.mm-label):after {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.mm-vertical.mm-menu .mm-list .mm-panel li {
+    padding-right:20px;
+	padding-left: 0;
+}
+
+/*---------------------------------------------------------------*/
+/* 13. Responsive
+/*---------------------------------------------------------------*/
+
+	
+/* Style mobile header */
+
+#mobile-site-header #site-logo {
+    right:32px;
+	left: auto;
+}
+
+#mobile-site-header .toggle-mobile-menu {
+    float:left;
+    left:32px;
+	right: auto;
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* ALL DEVICES INCLUDING TABLET LANDSCAPE
+* -------------------------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width : 1024px) {
+
+#content #post-header-sidebar .essb_links, #content #post-header-sidebar .essb_links {
+    text-align:right;
+}
+
+#site-utility {
+    float:right;
+}
+
+.header-widget-area .site-commerc .commercial {
+    left:30px;
+	right: auto;
+}
+
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* ALL DEVICES STARTING TABLET PORTRAIT
+* -------------------------------------------------------------------------------------------
+*/
+	
+@media only screen and (max-width: 979px) {
+	
+#content.float-left, #content.float-right, #sidebar {
+	width:100%; padding:0px;
+}
+
+#sidebar.float-right, #sidebar.float-left{
+	margin:60px 0px 0px;
+}
+
+#content #post-header-sidebar .essb_links, #content #post-header-sidebar .essb_links {
+    text-align:right;
+}
+
+#site-utility {
+    float:right;
+}
+
+	.vc_responsive .vc_row .wpb_column {
+    margin-right:0px !important;
+    margin-left:0px !important;
+}
+
+	.vc_responsive .vc_row .countdown_wrapper .vc_col-sm-3 {
+    border-left:1px solid !important;
+	border-right: none;
+}
+
+	.vc_responsive .service-box.sb_center {
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.vc_responsive .footer-sidebar .vc_row .vc_col-sm-3:nth-child(3) {
+    clear:right;
+}
+
+
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* TABLET PORTRAIT ONLY
+* -------------------------------------------------------------------------------------------
+*/	
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+#site-logo {
+    float:right;
+}
+
+#wrapper .author .fn, #wrapper .author .author-info, .author  #wrapper .author .fn, .author  #wrapper .author .author-info {
+    margin-right:0px;
+	margin-left: auto;
+}
+
+.woocommerce .woocommerce-ordering,.woocommerce-page .woocommerce-ordering {
+    margin:0 0 1em 4px;
+}
+
+.woocommerce #review_form .comment-form-author, .woocommerce-page #review_form .comment-form-author, .woocommerce #review_form .comment-form-email, .woocommerce-page #review_form .comment-form-email, .woocommerce #review_form .comment-form-rating, .woocommerce-page #review_form .comment-form-rating {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+.woocommerce a.added_to_cart {
+    margin-right:-65px;
+	margin-left: auto;
+}
+
+.woocommerce-cart .row-inner, .woocommerce-checkout .row-inner {
+    padding-left:40px !important;
+    padding-right:40px !important;
+}
+
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE BOTH VIEWS
+* -------------------------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 767px) {
+
+#site-utility {
+    float:right;
+}
+
+#wrapper .author img {
+	float:none;
+}
+
+#wrapper .author .fn, #wrapper .author .author-info {
+	margin-right:0px;
+}
+
+}
+	
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE LANDSCAPE ONLY
+* -------------------------------------------------------------------------------------------
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+dt {
+    text-align:right;
+}
+
+#comments .comment-list .children .children {
+    border-right:none;
+	border-left: none;
+}
+
+.woocommerce .woocommerce-ordering,.woocommerce-page .woocommerce-ordering {
+    margin:0 0 1em 4px;
+}
+
+.woocommerce #review_form .comment-form-author, .woocommerce-page #review_form .comment-form-author, .woocommerce #review_form .comment-form-email, .woocommerce-page #review_form .comment-form-email, .woocommerce #review_form .comment-form-rating, .woocommerce-page #review_form .comment-form-rating {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+.woocommerce ul.products li.last {
+    margin-left:1.1% !important;
+	margin-right: auto;
+}
+
+.woocommerce .products .product:nth-child(2n) {
+    margin-left:0 !important;
+	margin-right: auto;
+}
+
+.woocommerce table.shop_table .button {
+    float:right !important;
+    margin-left:5px !important;
+	margin-right: auto;
+}
+
+.woocommerce table.shop_table .checkout-button {
+    margin-right:0px !important;
+	margin-left: auto;
+}
+
+}
+
+/*
+* -------------------------------------------------------------------------------------------
+* MOBILE PORTRAIT & LOWER
+* -------------------------------------------------------------------------------------------
+*/	
+@media only screen and (max-width: 479px) {
+	
+.woocommerce .login .button {
+    margin:10px 0 10px 10px;
+}
+
+.woocommerce #review_form .comment-form-author, .woocommerce-page #review_form .comment-form-author, .woocommerce #review_form .comment-form-email, .woocommerce-page #review_form .comment-form-email, .woocommerce #review_form .comment-form-rating, .woocommerce-page #review_form .comment-form-rating {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+.woocommerce ul.products li.last {
+    margin-left:1.1% !important;
+	margin-right: auto;
+}
+
+.woocommerce a.added_to_cart {
+    margin-right:-65px;
+	margin-left: auto;
+}
+
+.woocommerce table.shop_table th.product-name,.woocommerce table.shop_table th.product-subtotal {
+    padding-right:5px;
+	padding-left: 0;
+}
+
+.woocommerce table.shop_table .coupon .button {
+    float:right;
+}
+
+.woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
+    float:right;
+}
+
+.mnky-posts .post-format-video .mp-image:before, .mnky-posts .post-format-gallery .mp-image:before {
+    margin-right:-30px;
+	margin-left: auto;
+}
+
+.vc_btn, .mnky_button {
+    margin-left:0px;
+	margin-right: auto;
+}
+
+
+}
+
+
+/* Made by the RTL-er.com - http://www.rtl-er.com */	
+/*------------------------------------------------------------------------------*/
+/* THANK YOU FOR CHOOSING OUR THEME! - MNKY Studio | http://mnkythemes.com
+/*------------------------------------------------------------------------------*/

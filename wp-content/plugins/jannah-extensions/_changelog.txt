@@ -1,0 +1,21 @@
+*** Jannah - Extensions Plugin Changelog ***
+-------------------------------------------------------------------------
+
+Version 1.0.4
+- Fixed: Index Shortcode bug with the non-latin languages.
+- Fixed: Conflict with the LiveBlog plugin.
+
+Version 1.0.3
+- Fixed: Loading Styles bug.
+
+
+Version 1.0.2
+- Changed slider-nav class name to tie-slider-nav to avoid conflicts with 3d party plugins.
+
+
+Version 1.0.1
+- Moved the slideshow js code to the Javascript file.
+
+
+Version 1.0.0
+- First release

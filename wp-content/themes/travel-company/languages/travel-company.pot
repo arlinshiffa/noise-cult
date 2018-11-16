@@ -1,0 +1,833 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Travel Company\n"
+"POT-Creation-Date: 2018-08-29 18:20+0545\n"
+"PO-Revision-Date: 2018-08-29 18:20+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"Oops! The page you are looking for does not exist. It might have been moved "
+"or deleted."
+msgstr ""
+
+#: 404.php:24
+msgid "Go Homepage"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: contact.php:14 inc/customizer/customizer-partials-function.php:157
+#: inc/customizer/travel-company-page-panel.php:50
+msgid "Our Information"
+msgstr ""
+
+#: contact.php:15 inc/customizer/customizer-partials-function.php:166
+#: inc/customizer/travel-company-page-panel.php:75
+msgid "Contact Us"
+msgstr ""
+
+#: footer-parts/footer-bottom.php:10
+msgid "&copy; All Right Reserved "
+msgstr ""
+
+#: functions.php:56
+msgid "Primary"
+msgstr ""
+
+#: functions.php:57
+msgid "Footer one(Company)"
+msgstr ""
+
+#: functions.php:58
+msgid "Footer two(Reservation)"
+msgstr ""
+
+#: functions.php:119
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:121 functions.php:131 functions.php:141 functions.php:151
+#: functions.php:161
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:129
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:159
+msgid "Google map iframe"
+msgstr ""
+
+#: header-parts/header-bottom.php:21
+msgid "Add a menu"
+msgstr ""
+
+#: header-parts/header-top.php:7
+msgid "Welcome To Travel Company Official Website"
+msgstr ""
+
+#: inc/breadcrumbs.php:234
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:235
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:236
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:237
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:238
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:240
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:242
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:244
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:246
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:698
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:715
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:732
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:748 inc/breadcrumbs.php:777 inc/breadcrumbs.php:804
+#: inc/breadcrumbs.php:831 inc/breadcrumbs.php:1172
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:749 inc/breadcrumbs.php:805 inc/breadcrumbs.php:1176
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:750 inc/breadcrumbs.php:1180
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:778
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:13
+#: inc/customizer/travel-company-header-panel.php:74
+msgid "Welcome to Travel Company"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:22
+#: sections/section-banner.php:5
+msgid "Simply the Best"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:32
+msgid "# 1 Most loved by everyone"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:42
+#: inc/customizer/customizer-partials-function.php:90
+#: sections/section-about.php:4 sections/section-call-to-action.php:3
+msgid "About Company"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:52
+#: sections/section-p-destination.php:3
+msgid "Popular Destinations Offered"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:61
+#: inc/customizer/customizer-partials-function.php:128
+#: sections/section-p-destination.php:4 sections/section-top-destination.php:3
+msgid "World's Best Tourist Destinations"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:71
+#: sections/section-blog.php:3
+msgid "News & Blog"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:80
+#: sections/section-blog.php:4
+msgid "Latest Updates"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:100
+#: sections/section-call-to-action.php:4
+msgid "Worthy time spent around the world with traveltrek."
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:109
+#: sections/section-call-to-action.php:5
+msgid "Book your trip"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:118
+#: sections/section-p-trips.php:4
+msgid "Popular Trips"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:138
+#: sections/section-top-destination.php:4
+msgid "Book your Trip"
+msgstr ""
+
+#: inc/customizer/customizer-partials-function.php:147
+#: sections/section-top-destination.php:5
+msgid "Top Destination"
+msgstr ""
+
+#: inc/customizer/customizer.php:39
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:40
+msgid "Buy Travel Company Pro"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:26
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:43
+msgid "Bottom Footer Social links Section"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:44
+msgid "Managed the content display at footer bottom social Link section."
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:63
+#: inc/customizer/travel-company-footer-panel.php:105
+#: inc/customizer/travel-company-header-panel.php:63
+#: inc/customizer/travel-company-header-panel.php:129
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:64
+msgid "Enable/Disable social links in Bottom Footer."
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:109
+#: inc/customizer/travel-company-header-panel.php:133
+#: inc/customizer/travel-company-header-panel.php:210
+#: inc/customizer/travel-company-page-panel.php:153
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:110
+#: inc/customizer/travel-company-header-panel.php:134
+#: inc/customizer/travel-company-header-panel.php:211
+#: inc/customizer/travel-company-page-panel.php:154
+msgid "Example: fa-facebook"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:114
+#: inc/customizer/travel-company-header-panel.php:138
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:115
+#: inc/customizer/travel-company-header-panel.php:139
+msgid "Example: http://facebook.com"
+msgstr ""
+
+#: inc/customizer/travel-company-footer-panel.php:120
+#: inc/customizer/travel-company-header-panel.php:144
+msgid "links"
+msgstr ""
+
+#: inc/customizer/travel-company-general-panel.php:31
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:26
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:43
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:44
+msgid "Managed the content display at top header section."
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:64
+msgid "Enable/Disable social links in top header."
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:83
+msgid "Welcome Text"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:165
+msgid "Middle Header Section"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:166
+msgid "Managed the content display at middle header section."
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:206
+msgid "Middle header location items"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:215
+#: inc/customizer/travel-company-page-panel.php:158
+msgid "Location Title"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:219
+msgid "Location Sub-title"
+msgstr ""
+
+#: inc/customizer/travel-company-header-panel.php:224
+msgid "locations"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:24
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:41
+msgid "Contact Page"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:42
+msgid "Managed the content display at contact page."
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:59
+msgid "contact title line text"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:84
+msgid "contact title line heading"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:103
+msgid "Use Shortcode for contact form"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:104
+msgid "eg [contact-form-7 id=\"108\" title=\"Contact form 1\"]"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:149
+msgid "Contact items"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:162
+msgid "Adress"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:166
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/travel-company-page-panel.php:171
+msgid "contacts"
+msgstr ""
+
+#: inc/demo/demo.php:18
+msgid "Import Travel Company Demo"
+msgstr ""
+
+#: inc/demo/demo.php:22
+msgid "It will overwrite your settings"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:82
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:237
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:394
+#: inc/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:404
+#: inc/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:405
+#: inc/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:405
+#: inc/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:430
+#: inc/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:441
+#: inc/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: inc/repeater/class-control-repeater.php:441
+#: inc/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: inc/template-functions.php:222
+msgid "Email:"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:99 template-parts/content-page.php:32
+#: template-parts/content-single.php:33
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/theme-info/about.php:9 inc/theme-info/about.php:10
+msgid "Travel Company Setup"
+msgstr ""
+
+#. translators: theme version
+#: inc/theme-info/about.php:13
+#, php-format
+msgid "Welcome to %s - "
+msgstr ""
+
+#. translators: 1: theme name
+#: inc/theme-info/about.php:16
+#, php-format
+msgid ""
+"We hope this page will help you to setup %1$s with few clicks. We believe "
+"you will find it easy to use and perfect for your website development."
+msgstr ""
+
+#: inc/theme-info/about.php:21
+msgid "Theme Details"
+msgstr ""
+
+#: inc/theme-info/about.php:25
+msgid "View Demo"
+msgstr ""
+
+#: inc/theme-info/about.php:29
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:33 inc/theme-info/about.php:142
+#: inc/theme-info/class-about.php:603
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/theme-info/about.php:41
+msgid "Getting Started"
+msgstr ""
+
+#: inc/theme-info/about.php:42 inc/theme-info/about.php:58
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/theme-info/about.php:43
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info/about.php:49 inc/theme-info/about.php:130
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:50
+msgid "Find step by step instructions to setup theme easily."
+msgstr ""
+
+#: inc/theme-info/about.php:51
+msgid "View documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:59
+msgid ""
+"We recommend few steps to take so that you can get complete site like shown "
+"in demo."
+msgstr ""
+
+#: inc/theme-info/about.php:60
+msgid "Check recommended actions"
+msgstr ""
+
+#: inc/theme-info/about.php:67
+msgid "Customize Everything"
+msgstr ""
+
+#: inc/theme-info/about.php:68
+msgid "Start customizing every aspect of the website with customizer."
+msgstr ""
+
+#: inc/theme-info/about.php:69
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/theme-info/about.php:81
+msgid "Travel Company Helper Plugin"
+msgstr ""
+
+#: inc/theme-info/about.php:82
+msgid "Please install the Travel Company Helper Plugin Before Importing Demo."
+msgstr ""
+
+#: inc/theme-info/about.php:88
+msgid "WP Travel Engine Plugin"
+msgstr ""
+
+#: inc/theme-info/about.php:89
+msgid "Please install the WP Travel Engine Plugin Before Importing Demo."
+msgstr ""
+
+#: inc/theme-info/about.php:95
+msgid "Setting Static Front Page"
+msgstr ""
+
+#: inc/theme-info/about.php:96
+msgid ""
+"Create a new page to display on front page ( Ex: Home ) and assign \"Home\" "
+"template. Select A static page then Front page and Posts page to display "
+"front page specific sections. Note: Static page will be set automatically "
+"when you import demo content."
+msgstr ""
+
+#: inc/theme-info/about.php:99
+msgid "Static Front Page"
+msgstr ""
+
+#: inc/theme-info/about.php:102
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/theme-info/about.php:103
+msgid "Please install the Contact Form 7 plugin Before Importing Demo."
+msgstr ""
+
+#: inc/theme-info/about.php:109
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/theme-info/about.php:110
+msgid ""
+"Please install the One Click Demo Import plugin to import the demo content. "
+"After activation go to Appearance >> Import Demo Data and import it."
+msgstr ""
+
+#: inc/theme-info/about.php:121 inc/theme-info/about.php:124
+msgid "Contact Support"
+msgstr ""
+
+#: inc/theme-info/about.php:123
+msgid ""
+"If you have any problem, feel free to create ticket on our dedicated Support "
+"forum."
+msgstr ""
+
+#: inc/theme-info/about.php:132
+msgid ""
+"Kindly check our theme documentation for detailed information and video "
+"instructions."
+msgstr ""
+
+#: inc/theme-info/about.php:133
+msgid "View Documentation"
+msgstr ""
+
+#: inc/theme-info/about.php:139
+msgid "Customization Request"
+msgstr ""
+
+#: inc/theme-info/about.php:141
+#, php-format
+msgid ""
+"This is 100% free theme and has premium version.Either Upgrade to Pro or  "
+"Feel free to contact us any time if you need any customization service."
+msgstr ""
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr ""
+
+#: inc/theme-info/class-about.php:164
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: inc/theme-info/class-about.php:561
+msgid "Install"
+msgstr ""
+
+#: inc/theme-info/class-about.php:565
+msgid "Activate"
+msgstr ""
+
+#: inc/theme-info/class-about.php:569
+msgid "Deactivate"
+msgstr ""
+
+#: inc/woocommerce.php:227
+msgid "View your shopping cart"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:231
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: search query.
+#: search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sections/section-banner.php:6
+msgid "# 1 MOST LOVED BY EVERYONE"
+msgstr ""
+
+#: sections/section-blog.php:46 sections/section-services.php:36
+msgid "Read More"
+msgstr ""
+
+#: sections/section-call-to-action.php:6
+msgid "#"
+msgstr ""
+
+#: sections/section-p-destination.php:47 sections/section-p-destination.php:69
+msgid "FROM"
+msgstr ""
+
+#. translators: %s: Popular Trips Duration
+#: sections/section-p-trips.php:62 sections/section-top-destination.php:80
+#, php-format
+msgid "%s Days"
+msgstr ""
+
+#. translators: %s: Popular Trips Duration Nights
+#: sections/section-p-trips.php:65 sections/section-top-destination.php:83
+#, php-format
+msgid " - %s Nights"
+msgstr ""
+
+#: sections/section-p-trips.php:72 sections/section-top-destination.php:89
+msgid "From"
+msgstr ""
+
+#: sections/section-p-trips.php:78 sections/section-top-destination.php:95
+msgid "View More"
+msgstr ""
+
+#: sections/section-p-trips.php:85
+msgid "No Popular trips found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:25
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-trips-search.php:6
+#: template-parts/content-trips-search.php:10
+msgid "Search"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Company"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://scorpionthemes.com/downloads/travel-company-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Company is Full Featured Tour & Travel Website. You can add trips, "
+"destinations,and trip types, feature travel activities etc. Travel Company "
+"is a free WordPress theme to create travel booking website for tour and "
+"travel companies. You can add trips, destinations, and trip types, feature "
+"travel activities, highlight your specialties and allow visitors to book the "
+"trips. The stunning design combined with modern CSS effects and animation "
+"will make your visitors feel like they are already on a trip. Travel Company "
+"WordPress theme is speed optimized, SEO-friendly and mobile-friendly"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "scorpionthemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://scorpionthemes.com/"
+msgstr ""

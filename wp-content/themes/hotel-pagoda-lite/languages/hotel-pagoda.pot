@@ -1,0 +1,617 @@
+# PRIDE THEMES HOTEL PAGODA LANGAGE.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# PRIDE THEMES <INFO@PRIDETHEMES.COM>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-12 21:02+0545\n"
+"PO-Revision-Date: 2018-06-12 21:02+0545\n"
+"Last-Translator: PRIDE THEMES <INFO@PRIDETHEMES.COM>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"from menu or a search?"
+msgstr ""
+
+#: archive.php:74 index.php:59 search.php:53
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: archive.php:75 index.php:60 search.php:54
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:89
+msgid "Powered By WordPress"
+msgstr ""
+
+#: footer.php:90
+msgid " | "
+msgstr ""
+
+#: functions.php:51
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:111
+msgid "Hotel Pagoda Sidebar"
+msgstr ""
+
+#: functions.php:113 functions.php:122
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:120
+msgid "Hotel Booking Sidebar"
+msgstr ""
+
+#: functions.php:131
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:133
+msgid "Shows widgets at Footer Widget "
+msgstr ""
+
+#: header.php:61
+msgid "Toggle navigation"
+msgstr ""
+
+#: search.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:99 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/functions/banner-options.php:14
+msgid "Single Image Banner (default)"
+msgstr ""
+
+#: inc/customizer/functions/banner-options.php:15
+msgid "Slider Banner"
+msgstr ""
+
+#: inc/customizer/functions/banner-options.php:23
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/functions/banner-options.php:42
+msgid " Page Slider"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:17
+msgid "Show Call To Action Section In Homepage? "
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:33
+#: inc/customizer/functions/theme-options.php:136
+#: inc/customizer/functions/theme-options.php:173
+#: inc/customizer/functions/theme-options.php:296
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:48
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:64
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:79
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:96
+#: inc/customizer/functions/theme-options.php:239
+#: inc/customizer/functions/theme-options.php:369
+msgid "Add Background Image"
+msgstr ""
+
+#: inc/customizer/functions/cta-options.php:116
+#: inc/customizer/functions/theme-options.php:260
+msgid "Add Background Color"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:58
+msgid "You may add the posts category from backend"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:94
+msgid ""
+"Please Install Woocommerce Plugin and Assign Product To Woocommerce Category"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:113
+msgid "You may add the service category from backend"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:116
+#: inc/customizer/functions/customizer-control.php:147
+msgid "None"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:125
+#: inc/customizer/functions/customizer-control.php:156
+msgid ""
+"Please Install Hotel Pagoda Base Camp Plugin and Assign Posts To Portfolio "
+"Category"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:144
+msgid "You may add the Hotel category from backend"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:174
+msgid "Introduction 1"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:178
+msgid "Introduction 2"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:183
+msgid "Top Callout"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:188
+msgid "Top Shortcode"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:192
+msgid "Product Category"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:196
+msgid "Service"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:202
+msgid "CTA"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:207
+msgid "Event"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:211
+msgid "Portfolio"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:217
+msgid "Stats"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:221
+msgid "Product Section"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:226
+msgid "Team"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:230
+msgid "Testimonial"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:235
+msgid "Bottom Callout"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:240
+msgid "Client"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:244
+msgid "Plan/Price"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:249
+#: lib/hotel-pagoda-functions.php:382
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:253
+msgid "Bottom CTA"
+msgstr ""
+
+#: inc/customizer/functions/customizer-control.php:258
+msgid "Subscribe"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:32
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:39
+msgid "Woocommerce Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:48
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:57
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:67
+msgid "Banner Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:76
+msgid "Hotel Info Page"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:84
+msgid "Hotel Info Stat Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:94
+msgid "Room Section"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:105
+msgid "Call To Action Option"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:116
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/functions/customizer.php:127
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/functions/stat-options.php:15
+msgid "Show Stats Section In Homepage ?"
+msgstr ""
+
+#: inc/customizer/functions/stat-options.php:32
+msgid "Stats "
+msgstr ""
+
+#: inc/customizer/functions/stat-options.php:49
+msgid "Title:"
+msgstr ""
+
+#: inc/customizer/functions/stat-options.php:65
+msgid "Number"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:6
+msgid "Support"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:21
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:39
+msgid "Reset all default settings. (Refresh it to view the effect)"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:56
+msgid "Sidebar Alignment"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:57
+msgid "Sidebar For Post And Pages"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:60
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:61
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:62
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:80
+msgid "Phone No."
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:103
+msgid "Show Hotel Info Section In Homepage? "
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:121
+msgid "Choose Introduction Page :"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:157
+msgid "Show Testimonial Section In Homepage? "
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:189
+#: inc/customizer/functions/theme-options.php:312
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:204
+msgid "No. of Posts"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:218
+msgid "Select Design"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:224
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:225
+msgid "Three Column"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:280
+msgid "Show Blog Section In Homepage? "
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:329
+msgid "Select Category For Blog Section?"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:344
+msgid "Meta for blog page"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:350
+msgid "Show Meta"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:351
+msgid "Hide Meta"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:388
+msgid "Backgorund Overlay"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:410
+msgid "Show Room Section In Homepage?"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:429
+msgid "Select Page For Title And Description"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:448
+msgid "Select Category For Room Section?"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:466
+msgid "Show Pre-Footer"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:467
+msgid "You Can Add The Widgets From Customizer>widgets."
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:486
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:504
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:521
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:540
+msgid "Show Hotel Listing Section In Homepage ? "
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:558
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:574
+msgid "Section Description"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:591
+msgid "Select Hotel Category"
+msgstr ""
+
+#: lib/hotel-pagoda-enqueue.php:46
+msgctxt "Questrial font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/hotel-pagoda-enqueue.php:49
+msgctxt "Quicksand font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/hotel-pagoda-enqueue.php:52
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:59
+msgid "Add Footer Widget"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:278 lib/hotel-pagoda-functions.php:326
+msgid "Read More"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:364
+msgid "Search Page"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:384
+msgid "Home"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:447
+msgid "Search results for: "
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:449
+msgid "Tag"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:453
+msgid "Articles posted by"
+msgstr ""
+
+#: lib/hotel-pagoda-functions.php:455
+msgid "Error 404"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:65
+msgid "Hotel Pagoda Base Camp"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:72
+msgid "Woocommerce"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:78
+msgid "One Click Demo Import"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:84
+msgid "Woocommerce Wishlist"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:90
+msgid "Crypto Currency Prices"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:95
+msgid "Jetpack"
+msgstr ""
+
+#: lib/hotel-pagoda-tgmp.php:100
+msgid "Easy Peasy Mailchimp"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content.php:73
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:47
+#, php-format
+msgctxt ""
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content.php:63 template-parts/content.php:69
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/homepage/blog-section.php:80
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: template-parts/homepage/room-section.php:69
+msgid "Book Now"
+msgstr ""

@@ -1,0 +1,325 @@
+.my-checklist .dashicons-menu {
+    float: right;
+    cursor: move;
+}
+.my-checklist li {
+    padding: 7px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+}
+
+ul.cpm-framework-sortable-list .cpm-framework-sortable-handle{
+    float: right;
+    cursor: move;
+}
+ul.cpm-framework-sortable-list li{
+    padding: 7px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+}
+.sortable-hideme{
+    display: none !important;
+}
+/* Customizer override */
+.support-image img {
+    height: 22px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.customize-control select {
+    height: 35px;
+}
+.control-section:first-child > h3.accordion-section-title {
+    display: block !important;
+
+}
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+    background: rgba(161, 63, 64,0.9);
+    color: #fff;
+}
+#customize-theme-controls .control-section-themes .accordion-section-title:hover {
+    color: #555 !important;
+    background-color: #fff !important;
+}
+.customize-section-title h3, h3.customize-section-title {
+    padding: 14px 10px 12px 14px;
+}
+
+.control-section-themes .accordion-section-title {
+    margin: 0;
+}
+#customize-controls .customize-info{
+    margin-bottom: 0;
+}
+#customize-theme-controls .control-section {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+.control-section-themes .accordion-section-title {
+    margin: 0;
+}
+#customize-theme-controls .control-section:first-child {
+    padding: 11px 0 11px 0;
+}
+#customize-theme-controls .control-section:first-child:hover .accordion-section-title {
+    background: #fff !important;
+    color: #555;
+}
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+    background: #fff !important;
+    color: #555 !important;
+}
+#customize-controls .accordion-section-title {
+    border-bottom: none;
+    display: flex;
+}
+.control-section .accordion-section-title {
+    padding: 12px 10px 16px 14px;
+    line-height: 26px;
+}
+.control-section .accordion-section-title:after {
+    top: 16px;
+}
+#customize-controls .control-section .accordion-section-title:focus, #customize-controls .control-section .accordion-section-title:hover, #customize-controls .control-section.open .accordion-section-title, #customize-controls .control-section:hover>.accordion-section-title{
+    background: rgb(0, 142, 194);
+    color: #fff;
+}
+.customize-panel-back:focus, .customize-panel-back:hover, .customize-section-back:focus, .customize-section-back:hover {
+    background: #f5f5f5 !important;
+}
+.customize-panel-back, .customize-section-back {
+    height: 78px;
+}
+input[type=text], input[type=password], input[type=checkbox], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=radio], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=search], select, textarea {
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    padding: 6px 13px;
+    -webkit-transition: 50ms border-color ease-in-out;
+    transition: 50ms border-color ease-in-out;
+}
+
+
+#customize-theme-controls .control-section > h3.accordion-section-title:before{
+    font-family: dashicons;
+    font-size: 21px;
+    margin-right: 14px;
+}
+li#accordion-section-hotel_pagoda_theme_support > h3.accordion-section-title:before {
+    content: "\f525";
+}
+li#accordion-panel-woo_options > h3.accordion-section-title:before {
+    content: "\f174";
+}
+li#accordion-panel-theme_options > h3.accordion-section-title:before {
+    content: "\f111";
+}
+li#accordion-section-title_tagline > h3.accordion-section-title:before {
+    content: "\f319";
+}
+li#accordion-section-colors > h3.accordion-section-title:before{
+    content: "\f100";
+}
+li#accordion-section-header_image > h3.accordion-section-title:before{
+    content: "\f161";
+}
+li#accordion-section-background_image > h3.accordion-section-title:before{
+    content: "\f128";
+}
+
+li#accordion-section-stat_options > h3.accordion-section-title:before{
+    content: "\f185";
+}
+li#accordion-section-recent_options > h3.accordion-section-title:before{
+    content: "\f509";
+}
+li#accordion-section-clients_options > h3.accordion-section-title:before{
+    content: "\f483";
+}
+
+li#accordion-panel-nav_menus > h3.accordion-section-title:before{
+    content: "\f333";
+}
+li#accordion-section-team_options > h3.accordion-section-title:before{
+    content: "\f307";
+}
+li#accordion-section-general_option > h3.accordion-section-title:before{
+    content: "\f107";
+}
+li#accordion-section-cta_section > h3.accordion-section-title:before{
+    content: "\f488";
+}
+li#accordion-panel-widgets > h3.accordion-section-title:before{
+    content: "\f479";
+}
+li#accordion-section-static_front_page > h3.accordion-section-title:before{
+    content: "\f105";
+}
+li#accordion-section-service_section > h3.accordion-section-title:before{
+    content: "\f107";
+}
+li#accordion-section-portfolio_section > h3.accordion-section-title:before{
+    content: "\f337";
+}
+li#accordion-section-team_section > h3.accordion-section-title:before{
+    content: "\f307";
+}
+li#accordion-section-blog_options > h3.accordion-section-title:before{
+    content: "\f116";
+}
+li#accordion-section-social_section > h3.accordion-section-title:before{
+    content: "\f301";
+}
+li#accordion-section-callout_options > h3.accordion-section-title:before{
+    content: "\f480";
+}
+li#accordion-section-bottom_callout_options > h3.accordion-section-title:before{
+    content: "\f480";
+}
+li#accordion-section-contact_section > h3.accordion-section-title:before{
+    content: "\f230";
+}
+li#accordion-section-footer_section > h3.accordion-section-title:before{
+    content: "\f479";
+}
+li#accordion-section-pre_footer_section > h3.accordion-section-title:before{
+    content: "\f479";
+}
+li#accordion-section-sortable_section > h3.accordion-section-title:before{
+    content: "\f156";
+}
+li#accordion-section-testimonial_options > h3.accordion-section-title:before{
+    content: "\f122";
+}
+li#accordion-section-change_css > h3.accordion-section-title:before{
+    content: "\f463";
+}
+li#accordion-section-general_sec > h3.accordion-section-title:before{
+    content: "\f180";
+}
+li#accordion-section-banner_options > h3.accordion-section-title:before{
+content: "\f200";
+}
+li#accordion-section-custom_css > h3.accordion-section-title:before{
+content: "\f119";
+}
+li#accordion-section-banner_section > h3.accordion-section-title:before{
+content: "\f181";
+}
+li#accordion-section-header_options > h3.accordion-section-title:before{
+content: "\f134";
+}
+li#accordion-section-hotel_pagoda_counter_option > h3.accordion-section-title:before{
+content: "\f469";
+}
+li#accordion-section-typography_section > h3.accordion-section-title:before{
+content: "\f210";
+}
+li#accordion-section-bottom_cta_options > h3.accordion-section-title:before{
+content: "\f480";
+}
+li#accordion-section-subscribe_options > h3.accordion-section-title:before{
+content: "\f466";
+}
+li#accordion-section-service_options > h3.accordion-section-title:before{
+content: "\f313";
+}
+li#accordion-section-price_options > h3.accordion-section-title:before{
+content: "\f155";
+}
+li#accordion-section-product_listing > h3.accordion-section-title:before{
+content: "\f164";
+}
+li#accordion-section-top_shortcode > h3.accordion-section-title:before{
+    content: "\f155";
+}
+li#accordion-section-bottom_shortcode > h3.accordion-section-title:before{
+    content: "\f154";
+}
+li#accordion-section-product_cat_options > h3.accordion-section-title:before{
+    content: "\f174";
+}
+li#accordion-section-additonal_page_options > h3.accordion-section-title:before{
+    content: "\f105";
+}
+
+li#accordion-section-hotel_options > h3.accordion-section-title:before{
+    content: "\f541";
+}
+
+.customize-partial-edit-shortcut button{
+    height: auto !important;
+}
+
+/*toggle button*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+li#accordion-section-introduction_options > h3.accordion-section-title:before {
+    content: "\f135";
+}
+li#accordion-section-introduction_options_second > h3.accordion-section-title:before {
+    content: "\f136";
+}
+/*#accordion-panel-city_store_options_panel h3:before {*/
+/*content: '\f0ad';*/
+/*font-family: FontAwesome;*/
+/*padding-right: 5px;*/
+/*}*/

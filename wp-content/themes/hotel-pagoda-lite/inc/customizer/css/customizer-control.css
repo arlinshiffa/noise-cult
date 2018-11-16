@@ -1,0 +1,85 @@
+
+#customize-control-support_links .hotel-pagoda-support {
+    font-size: 13px;
+    display: block;
+    width: 90%;
+    margin: 5px auto 14px auto;
+    transition: all .5s ease;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 50px;
+    background-color: #3ebef1;
+    box-shadow: none;
+    line-height: 23px;
+    padding: 9px 10px;
+}
+.hotel-pagoda-support span {
+    position: relative;
+    line-height: inherit;
+    margin-right: 9px;
+}
+.support-image img {
+    height: 25px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.support-image.hotel-pagoda-support {
+    display: flex !important;
+}
+
+#customize-control-support_links .hotel-pagoda-support:hover {
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,.3) inset;
+}
+#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro{
+    display: block !important;
+}
+
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro h3 {
+    background: #45deb0 !important;
+    text-align: center !important;
+    font-weight:bold;
+    display: block !important;
+}
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro h3 a {
+    color: #fff !important;
+    text-decoration: none;
+
+}
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro{
+    display: block !important;
+    text-align: center !important;
+}
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro h3 a.btn.btn-default {
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    padding: 8px 23px;
+    outline: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #fff;
+    color: #333 !important;
+    margin-top: 16px;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro h3 {
+    background: #beac5a !important;
+    text-align: center !important;
+    font-weight: bold;
+    display: block !important;
+}
+a.hotel-pagoda-lite-support {
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+}
+li#accordion-section-Hotel_Pagoda_Lite_Discount_Customize_Section_Pro h3 span {
+    color: #333;
+}
